@@ -3,4 +3,3 @@
 </p>
 
 ![sagoez's Language stats](https://git-hub-stats-card-generator.vercel.app/api/svg?username=sagoez&type=languages&theme=dark&chart=pie)
-![sagoez's Contribution stats](https://git-hub-stats-card-generator.vercel.app/api/svg?username=sagoez&type=contributions&theme=dark)
