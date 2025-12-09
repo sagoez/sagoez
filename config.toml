@@ -1,4 +1,4 @@
-baseURL = "https://sagoez.com/"
+baseURL = "https://blog.sagoez.com/"
 title = "Sam 👋"
 paginate = 8
 theme = "PaperMod"
