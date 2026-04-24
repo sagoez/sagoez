@@ -45,6 +45,39 @@ main > p:last-child {
   margin-bottom: 0;
 }
 
+main > p {
+  opacity: 0;
+  transform: translateY(6px);
+  animation: fade-in 0.7s ease-out forwards;
+}
+
+main > p:nth-child(1) {
+  animation-delay: 0.05s;
+}
+
+main > p:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+main > p:nth-child(3) {
+  animation-delay: 0.35s;
+}
+
+@keyframes fade-in {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  main > p {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+}
+
 p {
   margin: 0 0 1.4em;
 }
