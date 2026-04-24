@@ -1,7 +1,5 @@
-<p align="center">
-  <a href="https://github.com/kaizen-solutions/virgil" target="_blank">Virgil</a> | <a href="https://github.com/sagoez/.dotfiles" target="_blank">Dotfiles</a> | <a href="mailto:swe@sagoez.com?subject=[GitHub]" target="_blank">Reach Me</a> | <a href="https://blog.sagoez.com" target="_blank">Website</a>
-</p>
+# sagoez.com
 
-<p align="center">
-  <img src="https://git-hub-stats-card-generator.vercel.app/api/svg?username=sagoez&type=languages&theme=dark&chart=pie" alt="sagoez's Language stats">
-</p>
+Source for [sagoez.com](https://sagoez.com) — a single static page. No build step.
+
+The `archive/` directory holds old Hugo blog posts as markdown, preserved but unpublished.

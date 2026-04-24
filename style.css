@@ -1,0 +1,74 @@
+:root {
+  color-scheme: light;
+  --fg: #191919;
+  --bg: #fafaf7;
+  --rule: #191919;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--fg);
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  font-family: ui-monospace, "SF Mono", "JetBrains Mono", "Menlo", Consolas,
+    monospace;
+  font-size: 17px;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+main {
+  max-width: 620px;
+  width: 100%;
+  padding: 2rem 1.5rem;
+}
+
+main > p:last-child {
+  margin-bottom: 0;
+}
+
+p {
+  margin: 0 0 1.4em;
+}
+
+strong {
+  font-weight: 700;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 1px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --fg: #fafaf7;
+    --bg: #191919;
+    --rule: #fafaf7;
+  }
+}
